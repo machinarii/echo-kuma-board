@@ -129,6 +129,24 @@ Release signing: run `tools/sign-release.sh` after `./gradlew :app:assembleRelea
 `storePassword`, `keyAlias` and `keyPassword`, then run `./gradlew :app:assembleRelease`
 (about 200 KB, minified). Without that file the release APK is unsigned.
 
+## The device: LineageOS on the Echo Show 5
+
+The Echo in the picture runs LineageOS instead of Amazon's Fire OS. It has been unlocked and
+flashed with the unofficial **LineageOS 18.1 (Android 11) build for the Echo Show 5 2nd gen
+(`cronos`)**, build `lineage-18.1-20260624-UNOFFICIAL-cronos` (release v0.3). The board was
+developed and tested on that build.
+
+- **Download the OS image:** [amazon-oss/releases, cronos builds](https://github.com/amazon-oss/releases/releases?q=cronos)
+  (the build above is [lineage-18.1-cronos-v0.3](https://github.com/amazon-oss/releases/releases/tag/lineage-18.1-cronos-v0.3);
+  newer builds are listed there too).
+- **Unlock, TWRP and flashing:** [XDA unlock/root/TWRP thread for `cronos`](https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-show-5-2nd-gen-2021-cronos.4772596/)
+  and the [XDA LineageOS 18.1 thread for `cronos`](https://xdaforums.com/t/rom-unofficial-11-cronos-lineageos-18-1-for-the-amazon-echo-show-5-2021.4772598/).
+  A step-by-step walkthrough: [Hacking your Echo Show 5 and 8](https://www.derekseaman.com/2025/11/home-assistant-hacking-your-echo-show-5-and-8.html).
+
+Other models need their own build: Echo Show 5 1st gen is `checkers`, Echo Show 8 1st gen is
+`crown`. Unlocking and flashing can brick the device and is at your own risk; follow the
+threads exactly.
+
 ## Install on the Echo (after LineageOS is flashed)
 
 ```sh
