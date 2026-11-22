@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Catppuccin Macchiato tokens used by the window themes (the board itself draws from dev.kumaboard.core.Palette). -->
+<resources>
+    <color name="background">#000000</color>
+    <color name="crust">#181926</color>
+    <color name="mantle">#1E2030</color>
+    <color name="text">#CAD3F5</color>
+    <color name="subtext0">#A5ADCB</color>
+    <color name="blue">#8AADF4</color>
+</resources>

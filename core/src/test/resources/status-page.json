@@ -1,0 +1,20 @@
+{
+  "config": { "slug": "echo", "title": "Echo", "description": null, "icon": "/icon.svg", "theme": "auto", "published": true, "showTags": false, "customCSS": "", "footerText": null, "showPoweredBy": false, "googleAnalyticsId": null, "showCertificateExpiry": false, "autoRefreshInterval": 300 },
+  "incident": null,
+  "publicGroupList": [
+    { "id": 1, "name": "Network", "weight": 1, "monitorList": [
+      { "id": 3, "name": "Internet", "sendUrl": 0, "type": "ping" },
+      { "id": 7, "name": "VPN", "sendUrl": 0, "type": "port" },
+      { "id": 9, "name": "DNS", "sendUrl": 0, "type": "dns" }
+    ]},
+    { "id": 2, "name": "Apps", "weight": 2, "monitorList": [
+      { "id": 12, "name": "Apps - Kestrel API (vm1)", "sendUrl": 0, "type": "http" },
+      { "id": 13, "name": "Tidepool", "sendUrl": 0, "type": "http" },
+      { "id": 3, "name": "Internet", "sendUrl": 0, "type": "ping" },
+      { "name": "no id, skipped" },
+      { "id": "21", "name": "  " }
+    ]},
+    { "id": 3, "name": "Broken group" }
+  ],
+  "maintenanceList": []
+}

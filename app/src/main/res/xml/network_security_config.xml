@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cleartext is permitted at the platform level so explicit private-network http:// addresses work.
+     The app itself refuses http:// for any public host (see ServerAddress in :core), and never
+     follows an https -> http redirect. User CAs are trusted for homelab Kuma servers with a private CA. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
