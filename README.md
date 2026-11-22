@@ -8,11 +8,11 @@ Every monitor fits on one screen. There is no scrolling, no login and no menus.
 
 Spec: [docs/PRD.md](docs/PRD.md).
 
-![Kuma Board on an Echo Show 5 (2nd gen): two monitors down, one pending, one in maintenance, weekly AI usage strip at the bottom](docs/screenshots/echo-show-5.png)
+![Kuma Board on an Echo Show 5 (2nd gen): two monitors down, one pending, one in maintenance, weekly AI usage strip at the bottom](docs/screenshots/echo-show-5.jpg)
 
 ![14 monitors, all up](docs/screenshots/14-all-up.png)
 
-Screenshots of the real app in an Android 11 emulator at 960×480, using demo data with made-up service names. The device frame is an illustration of the Echo Show 5 (2nd gen), not a photo.
+Screenshots of the real app in an Android 11 emulator at 960×480, using demo data with made-up service names. The top image places that screenshot onto Amazon's product photo of the Echo Show 5 (2nd gen); `tools/mockup/echo_frame.py` draws a plain front-facing frame instead.
 
 ## What it does
 
